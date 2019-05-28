@@ -1,0 +1,245 @@
+[p LITE_MODE AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K80 ]
+[d frameptr 4065 ]
+"33 C:\Git_Code\Relay\CAN Demo.X\CAN_Main.c
+[e E12367 timerIdx_t `uc
+DEBUG_TIMER 0
+POWER_ON_TIMER 1
+POWER_OFF_TIMER 2
+PATTERN_ON_TIMER 3
+PATTERN_OFF_TIMER 4
+NUM_TIMERS 5
+]
+"51
+[e E12389 msgType_t `uc
+MSG_NOT_AVAILABLE 0
+MSG_ONE_MILLISECOND 1
+]
+"26 C:\Git_Code\Relay\CAN Demo.X\CAN_Interrupt.c
+[e E12367 msgType_t `uc
+MSG_NOT_AVAILABLE 0
+MSG_ONE_MILLISECOND 1
+]
+"75 C:\Git_Code\Relay\CAN Demo.X\CAN_Timer.c
+[e E12367 timerIdx_t `uc
+DEBUG_TIMER 0
+POWER_ON_TIMER 1
+POWER_OFF_TIMER 2
+PATTERN_ON_TIMER 3
+PATTERN_OFF_TIMER 4
+NUM_TIMERS 5
+]
+"53 C:\Git_Code\Relay\CAN Demo.X\SYS_Message.c
+[e E12366 msgType_t `uc
+MSG_NOT_AVAILABLE 0
+MSG_ONE_MILLISECOND 1
+]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"22 C:\Git_Code\Relay\CAN Demo.X\CAN_Interrupt.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+"27 C:\Git_Code\Relay\CAN Demo.X\CAN_Main.c
+[v _main main `(i  1 e 2 0 ]
+"43 C:\Git_Code\Relay\CAN Demo.X\CAN_Timer.c
+[v _systemTickInit systemTickInit `(v  1 e 1 0 ]
+"69
+[v _timerRoutine timerRoutine `(v  1 e 1 0 ]
+"99
+[v _setTimer setTimer `(v  1 e 1 0 ]
+"157
+[v _debugTimer debugTimer `(v  1 e 1 0 ]
+"173
+[v _powerOnTimer powerOnTimer `(v  1 e 1 0 ]
+"194
+[v _powerOffTimer powerOffTimer `(v  1 e 1 0 ]
+"212
+[v _patternOnTimer patternOnTimer `(v  1 e 1 0 ]
+"236
+[v _patternOffTimer patternOffTimer `(v  1 e 1 0 ]
+"15 C:\Git_Code\Relay\CAN Demo.X\CFG_CPU.c
+[v _initCpu initCpu `(v  1 e 1 0 ]
+"90 C:\Git_Code\Relay\CAN Demo.X\SYS_Message.c
+[v _sendMsg sendMsg `(v  1 e 1 0 ]
+"118
+[v _getMsg getMsg `(uc  1 e 1 0 ]
+"29995 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f46k80.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"30074
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"30145
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"30231
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"30302
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"30401
+[v _TMR4 TMR4 `VEuc  1 e 1 @3975 ]
+"30421
+[v _T4CON T4CON `VEuc  1 e 1 @3976 ]
+[s S32 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"30947
+[s S36 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+]
+[u S40 . 1 `S32 1 . 1 0 `S36 1 . 1 0 ]
+[v _LATEbits LATEbits `VES40  1 e 1 @3981 ]
+"31088
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"31145
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"31207
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"31269
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"31331
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S52 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+]
+"31343
+[u S56 . 1 `S52 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES56  1 e 1 @3990 ]
+"31472
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+"32573
+[v _PR4 PR4 `VEuc  1 e 1 @4009 ]
+"36176
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"36248
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"41081
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"41759
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"44951
+[v _TMR4IE TMR4IE `VEb  1 e 0 @32183 ]
+"44954
+[v _TMR4IF TMR4IF `VEb  1 e 0 @32191 ]
+"25 C:\Git_Code\Relay\CAN Demo.X\CAN_Main.c
+[v _msg msg `uc  1 s 1 msg ]
+"14 C:\Git_Code\Relay\CAN Demo.X\CAN_Timer.c
+[v _patternCount patternCount `uc  1 s 1 patternCount ]
+[s S116 timer_t 6 `us 1 timer 2 0 `us 1 timeout 2 2 `*.37(v 1 onTimeout 2 4 ]
+"24
+[v _timers timers `[5]S116  1 s 30 timers ]
+"20 C:\Git_Code\Relay\CAN Demo.X\SYS_Message.c
+[v _GIEBuffer GIEBuffer `uc  1 e 1 0 ]
+"22
+[v _the_msgQueue the_msgQueue `[8]uc  1 s 8 the_msgQueue ]
+"31
+[v _the_msgPutIndex the_msgPutIndex `i  1 s 2 the_msgPutIndex ]
+"32
+[v _the_msgGetIndex the_msgGetIndex `uc  1 s 1 the_msgGetIndex ]
+"27 C:\Git_Code\Relay\CAN Demo.X\CAN_Main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"53
+} 0
+"69 C:\Git_Code\Relay\CAN Demo.X\CAN_Timer.c
+[v _timerRoutine timerRoutine `(v  1 e 1 0 ]
+{
+"72
+[v timerRoutine@i i `uc  1 a 1 13 ]
+"88
+} 0
+"236
+[v _patternOffTimer patternOffTimer `(v  1 e 1 0 ]
+{
+"241
+} 0
+"212
+[v _patternOnTimer patternOnTimer `(v  1 e 1 0 ]
+{
+"224
+} 0
+"194
+[v _powerOffTimer powerOffTimer `(v  1 e 1 0 ]
+{
+"199
+} 0
+"157
+[v _debugTimer debugTimer `(v  1 e 1 0 ]
+{
+"161
+} 0
+"173
+[v _powerOnTimer powerOnTimer `(v  1 e 1 0 ]
+{
+"182
+} 0
+"99
+[v _setTimer setTimer `(v  1 e 1 0 ]
+{
+[v setTimer@timerIdx timerIdx `E12367  1 a 1 wreg ]
+[s S116 timer_t 6 `us 1 timer 2 0 `us 1 timeout 2 2 `*.37(v 1 onTimeout 2 4 ]
+"101
+[v setTimer@pTimer pTimer `*.39S116  1 a 2 8 ]
+"99
+[v setTimer@timerIdx timerIdx `E12367  1 a 1 wreg ]
+[v setTimer@timeout timeout `us  1 p 2 5 ]
+"101
+[v setTimer@timerIdx timerIdx `E12367  1 a 1 7 ]
+"108
+} 0
+"43
+[v _systemTickInit systemTickInit `(v  1 e 1 0 ]
+{
+"57
+} 0
+"15 C:\Git_Code\Relay\CAN Demo.X\CFG_CPU.c
+[v _initCpu initCpu `(v  1 e 1 0 ]
+{
+"50
+} 0
+"118 C:\Git_Code\Relay\CAN Demo.X\SYS_Message.c
+[v _getMsg getMsg `(uc  1 e 1 0 ]
+{
+"121
+[v getMsg@tmpMsgGetIndex tmpMsgGetIndex `uc  1 a 1 10 ]
+"120
+[v getMsg@msg msg `E12366  1 a 1 9 ]
+"138
+} 0
+"22 C:\Git_Code\Relay\CAN Demo.X\CAN_Interrupt.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+{
+"29
+} 0
+"90 C:\Git_Code\Relay\CAN Demo.X\SYS_Message.c
+[v _sendMsg sendMsg `(v  1 e 1 0 ]
+{
+[v sendMsg@msg msg `uc  1 a 1 wreg ]
+[v sendMsg@msg msg `uc  1 a 1 wreg ]
+"92
+[v sendMsg@msg msg `uc  1 a 1 2 ]
+"105
+} 0
