@@ -229,7 +229,7 @@ void patternOnTimer(void)
 * INPUTS        : void
 * OUTPUTS      	: none
 * RETURNS      	: void
-* DESCRIPTION  	: stops the DALI tick time from turning the relay off while replying to RSMS command
+* DESCRIPTION  	: Turns off the pattern select output
 *
 *************************************************************************/
 
